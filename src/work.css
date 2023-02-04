@@ -1,0 +1,14 @@
+.company-name{
+    color: black;
+    font-family: "Ubuntu";
+    font-size: 1.5rem;
+    font-weight: 800;
+    text-decoration: underline;
+}
+
+.description-position{
+    color: black;
+}
+.position{
+    color: black;
+}
