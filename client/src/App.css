@@ -1,0 +1,420 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald:wght@500&family=Ubuntu:wght@300&display=swap');
+:root{
+  --primary-app-color:#02203c;
+  --secondary-app-color:#001528;
+  --standout-color:#fffb00;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  color:yellow;
+}
+*{
+  padding: 0;
+  margin: 0;
+}
+.herosection{
+  background: linear-gradient(
+    -90deg,
+    var(--primary-app-color),
+    var(--secondary-app-color)
+  );
+  clip-path: polygon(0 0%, 100% 0, 100% 84%, 50% 100%, 50% 100%, 0 85%);
+}
+
+.nav-items{
+  cursor: pointer;
+  color: white;
+  font-size: 1.3rem;
+  font-family:"Ubuntu";
+  padding-top: 25px;
+}
+.name{
+  font-family:"Oswald" ;
+  color: #fff;
+  font-size: 2rem;
+  padding-top: 19px;
+}
+.name2{
+  font-family: "Oswald";
+  color: #fff;
+  font-size: 1.7rem;
+  margin-top: 10px;
+  margin-left: 18px;
+}
+.px-10{
+  padding-inline: 90px;
+}
+.herosection-2{
+  padding-top: 0px;
+  padding-bottom: 85px;
+}
+.yo{
+  display: inline;
+  padding-bottom: 8px;
+}
+.fa{
+  color: white;
+}
+.fa:hover{
+  transform: translateY(-2px);
+  background-color: white;
+  color: #1c1c1c;
+}
+.Im-text-section{
+  padding-top: 52px;
+  text-align: center;
+}
+.Im-text{
+  font-family: "Ubuntu";
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+.name-Im-text{
+  color: var(--standout-color);
+  font-size: 28px;
+}
+.Im-text-enthusiastic{
+  font-family: sans-serif;
+  color: #fff;
+  font-size: 2.7rem;
+}
+.Im-text-subheading{
+  font-family: "Open sans";
+  color: #fff;
+  font-size: 1.4rem;
+}
+.btn-hire-me{
+  font-size: 1.4rem;
+  font-family: "Ubuntu";
+  color: #fff;
+  background: transparent;
+  border-radius: 20px;
+  margin-inline:12px;
+  padding: 5px 40px;
+  border: 2px solid white;
+  transition: all 0.3s ease-in-out;
+}
+.btn-hire-me:hover{
+  transform: translateY(-3px);
+  background-color: var(--standout-color);
+  color: #1c1c1c;
+}
+.btn-resume-me{
+  font-size: 1.3rem;
+  font-family: "Ubuntu";
+  color: #fff;
+  background: red;
+  border-radius: 20px;
+  margin-inline:12px;
+  padding: 5px 40px;
+  border: 2px solid white;
+  transition: all 0.3s ease-in-out;
+}
+.btn-resume-me:hover{
+  transform: translateY(-3px);
+  background-color: var(--standout-color);
+  color: #1c1c1c;
+}
+.custom-img{
+  width: 440px;
+  height: 490px;
+  border-radius:1500px;
+  object-fit: contain;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 30px;
+}
+
+/* about me section*/
+.about-me-text{
+  font-family: "Ubuntu";
+  font-weight: 800;
+  font-size: 3.5rem;
+  letter-spacing: 2px;
+  text-align: center;
+}
+.why-text-sub{
+  font-family: "Ubuntu";
+  font-weight: 700;
+  font-size: 1.3rem;
+  opacity: 0.8;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.aboutme-inside{
+  width: 70%;
+  margin-inline: auto;
+}
+
+.some-text-about-me{
+  font-family: "ubuntu";
+  font-weight: 600;
+  font-size:1.2rem;
+  opacity: 0.8;
+  text-align: justify;
+
+}
+.few-highlights{
+  font-family: "Ubuntu";
+  padding-block: 12px;
+}
+.few-text{
+  font-family: "ubuntu";
+  font-weight: 600;
+  font-size:1.5rem;
+}
+.few-list{
+  font-family:"Ubuntu";
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.px-9{
+  padding-inline: 90px;
+  
+  background: linear-gradient(
+    -90deg,
+    var(--primary-app-color),
+    var(--secondary-app-color)
+  );
+}
+/*Resume part css*/
+.resume-options-items{
+  width: 1%;
+  transition: all 0.3s ease-in-out;
+  padding-block: 24px;
+  padding-inline:24px;
+  color: #000;
+  cursor: pointer;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.resume-options-items:hover{
+  width: 100%;
+  background: linear-gradient(-90deg,var(--primary-app-color),var(--secondary-app-color));
+  color: #fff;
+}
+.icons-span{
+  margin-block:24px;
+  margin-inline:24px;
+}
+.selected{
+  background: linear-gradient(-45deg,var(--primary-app-color),var(--secondary-app-color));
+  width: 100%;
+  color: white;
+}
+.bg-new{
+  background: linear-gradient(-45deg,var(--primary-app-color),var(--secondary-app-color));
+}
+.resume-outer-section{
+  padding-top:100px ;
+  padding-bottom: 100px;
+  background: var(--primary-app-color);
+  color:#fff;
+  clip-path: polygon(0 11% ,100% 0 ,100% 100% , 0 100%);
+}
+.resume-new-section{
+  margin-top: 42px;
+  background-color: white;
+  box-shadow: 10px 10px 31px 2px #1c1c1c;
+}
+/*contact me part*/
+.contact-me-part{
+  color: white;
+  text-align: center;
+}
+.contact-me-text{
+  font-family: "Ubuntu";
+  font-weight: bold;
+  font-size: 3.1rem;
+  position: relative;
+  top: 30px;
+}
+.touch-text{
+  color:white;
+  font-family: "Ubuntu";
+  font-weight: 700;
+  font-size: 1.3rem;
+  opacity: 0.8;
+  text-transform: capitalize;
+  position: relative;
+  top: 30px;
+}
+
+.relative-bg{
+  clip-path: polygon(0 0%,100% 9%,100% 85%,0 94%);
+
+  background:linear-gradient(
+    -90deg,
+  var(--primary-app-color),
+  var(--secondary-app-color)
+  );
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: -4;
+}
+
+.contact-inner-part{
+  padding-block:118px;
+}
+
+.flex-rows{
+  flex-direction: row;
+  justify-content: space-between;
+}
+.navbar-option-mobile{
+  display: none;
+}
+.university-degre{
+  color:green;
+  text-align: center;
+  font-weight: bold;
+  border: 5px solid red;
+}
+footer{
+  margin-top: 120px;
+  margin-bottom: 2px;
+  padding: 25px;
+  
+  background:linear-gradient(
+    -90deg,
+  var(--primary-app-color),
+  var(--secondary-app-color)
+  );
+  color: white;
+  text-align: center;
+}
+@media all and (max-width:786px) {
+  .navbar-option-mobile{
+    display: block;
+    width: 100vw;
+    height: 50px;
+    position: fixed;
+    z-index:44;
+  }
+  .flex-rows{
+    flex-direction: column;
+    justify-content: start;
+  }
+  .navbar-new{
+    position: fixed;
+    height: 100vh;
+    width: 60vw;
+    z-index:33;
+    transform: translateX(-700px);
+  }
+  .transition-all{
+    transition: all 0.3s ease-in-out;
+  }
+  .navbar-fixed-new{
+    position: fixed;
+    height: 100vh;
+    width: 60vw;
+    z-index:33;
+  }
+  .px-9{
+    padding-inline:0px;
+  }
+  .px-10{
+    padding-inline:10px;
+  }
+  .nav-items{
+    padding-block: 20px;
+  }
+  .name{
+    font-size: 1.4rem;
+    padding-inline:22px;
+  }
+  .bars{
+    height: 4px;
+    width: 40px;
+    background: #fff;
+    float: right;
+    z-index: 33;
+    transform: translateY(30px);
+  }
+  .bars::before{
+    display: block;
+    position: relative;
+    top:9px;
+    content: "";
+    color: #fff;
+    width: 40px;
+    height: 4px;
+    background:#fff
+  }
+  .bars::after{
+    display: block;
+    position: relative;
+    bottom: 12px;
+    content: "";
+    color: #fff;
+    width: 40px;
+    height: 4px;
+    background:#fff;
+  }
+  .Im-text{
+    font-size: 1.2rem;
+  }
+  .name-Im-text{
+    font-size:25px ;
+  }
+  .Im-text-enthusiastic{
+    font-size: 2rem;
+  }
+  .Im-text-subheading{
+    font-size:1.2rem;
+  }
+  .btn-hire-me{
+    font-size: 1rem;
+    padding: 6px 30px ;
+    margin-block: 24px;
+    position: relative;
+    bottom: 40px;
+  }
+  .btn-resume-me{
+    font-size: 1rem;
+    padding: 6px 30px ;
+    margin-block: 24px;
+    position: relative;
+    bottom: 40px;
+  }
+  .custom-img{
+    border: none;
+    top: -20px;
+    width: 220px;
+    height: 400px;
+    
+  }
+  .about-me-text{
+    font-size: 2.7rem;
+  }
+  .why-text-sub{
+    font-size: 1rem;
+  }
+  .aboutme-inside{
+    width:91%;
+  }
+  .lottie-1{
+    width: 500px ;
+  }
+  .university-name{
+    font-size: 1rem;
+
+  }
+  .university-degree{
+    font-size:0.9rem;
+  }
+  .resume-new-section{
+    width: 100%!important;
+  }
+  .card-contact-right{
+    width: 100%;
+  }
+}
